@@ -28,6 +28,7 @@
       padding: 20px 40px;
       background-color: #ffffff;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      font-size: 1rem;
     }
 
     .logo {
@@ -40,11 +41,18 @@
       margin-right: 10px;
     }
 
+    .nav-group {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
     nav a {
-      margin: 0 15px;
       text-decoration: none;
       color: #000;
       font-weight: 600;
+      margin: 0 10px;
+      font-size: inherit;
     }
 
     .cta-button {
@@ -55,6 +63,7 @@
       color: #000;
       border-radius: 6px;
       cursor: pointer;
+      font-size: inherit;
     }
 
     .hero {
@@ -89,6 +98,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      font-size: 1rem;
     }
 
     .action-box p {
@@ -104,10 +114,11 @@
       font-weight: 700;
       border-radius: 8px;
       cursor: pointer;
+      font-size: inherit;
     }
 
     footer {
-      font-size: 0.95rem;
+      font-size: 1rem;
       color: #333;
       margin-bottom: 40px;
     }
@@ -120,12 +131,14 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Charity_Water_logo.svg/512px-Charity_Water_logo.svg.png" alt="Charity Water Logo" />
       <span><strong>charity:</strong> water</span>
     </div>
-    <nav>
-      <a href="#initiative">Take Initiative</a>
-      <a href="#reports">Impact Reports</a>
-      <a href="#about">About Us</a>
-    </nav>
-    <button class="cta-button">Bring Smiles Now!</button>
+    <div class="nav-group">
+      <nav>
+        <a href="#initiative">Take Initiative</a>
+        <a href="#reports">Impact Reports</a>
+        <a href="#about">About Us</a>
+      </nav>
+      <button class="cta-button">Bring Smiles Now!</button>
+    </div>
   </header>
 
   <section class="hero">
